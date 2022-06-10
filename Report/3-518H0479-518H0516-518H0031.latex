@@ -1,0 +1,713 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{quote}
+TỔNG LIÊN ĐOÀN LAO ĐỘNG VIỆT NAM \textbf{TRƯỜNG ĐẠI HỌC TÔN ĐỨC THẮNG
+KHOA CÔNG NGHỆ THÔNG TIN}
+\end{quote}
+
+\includegraphics[width=1.27375in,height=0.70323in]{vertopal_ee030a42582945f0b6e0807e4fe4e97c/media/image1.jpeg}
+
+\begin{quote}
+\textbf{KIẾN TRÚC HƯỚNG DỊCH VỤ}
+
+\textbf{ĐỒ ÁN CUỐI KÌ}
+
+\textbf{Microservices -- Based Ecommerce Website}
+\end{quote}
+
+\emph{Người hướng dẫn}: Thầy \textbf{DƯƠNG HỮU PHÚC}
+
+\emph{Người thực hiện}: \textbf{CHIÊM TIỀN KHANG -- 518H0516}
+
+\textbf{NGUYỄN PHẠM MẠNH CƯỜNG -- 518H0479}
+
+\textbf{NGUYỄN CHÂU THÙY LINH -- 518H0031}
+
+Lớp \textbf{: 18H50203}
+
+\textbf{18H50202}
+
+Khoá \textbf{: 22}
+
+\begin{quote}
+\textbf{THÀNH PHỐ HỒ CHÍ MINH, NĂM 2022}
+
+TỔNG LIÊN ĐOÀN LAO ĐỘNG VIỆT NAM \textbf{TRƯỜNG ĐẠI HỌC TÔN ĐỨC THẮNG
+KHOA CÔNG NGHỆ THÔNG TIN}
+\end{quote}
+
+\includegraphics[width=1.27375in,height=0.70323in]{vertopal_ee030a42582945f0b6e0807e4fe4e97c/media/image1.jpeg}
+
+\begin{quote}
+\textbf{KIẾN TRÚC HƯỚNG DỊCH VỤ}
+
+\textbf{ĐỒ ÁN CUỐI KÌ}
+
+\textbf{Microservices -- Based Ecommerce Website}
+\end{quote}
+
+\emph{Người hướng dẫn}: Thầy \textbf{DƯƠNG HỮU PHÚC}
+
+\emph{Người thực hiện}: \textbf{CHIÊM TIỀN KHANG -- 518H0516}
+
+\textbf{NGUYỄN PHẠM MẠNH CƯỜNG -- 518H0479}
+
+\textbf{NGUYỄN CHÂU THÙY LINH -- 518H0031}
+
+Lớp \textbf{: 18H50203}
+
+\textbf{18H50202}
+
+Khoá \textbf{: 22}
+
+\begin{quote}
+\textbf{THÀNH PHỐ HỒ CHÍ MINH, NĂM 202}
+\end{quote}
+
+\hypertarget{lux1eddi-cux1ea3m-ux1a1n}{%
+\section{LỜI CẢM ƠN}\label{lux1eddi-cux1ea3m-ux1a1n}}
+
+\hypertarget{xin-chuxe2n-thuxe0nh-cux1ea3m-ux1a1n-khoa-cntt-trux1b0ux1eddng-ux111ux1ea1i-hux1ecdc-tuxf4n-ux111ux1ee9c-thux1eafng-ux111uxe3-tux1ea1o-ux111iux1ec1u-kiux1ec7n-thuux1eadn-lux1ee3i-cho-chuxfang-tuxf4i-nghiuxean-cux1ee9u-vuxe0-thux1ef1c-hiux1ec7n-chuyuxean-ux111ux1ec1-nuxe0y.}{%
+\subparagraph{Xin chân thành cảm ơn Khoa CNTT, Trường Đại học Tôn Đức
+Thắng đã tạo điều kiện thuận lợi cho chúng tôi nghiên cứu và thực hiện
+chuyên đề
+này.}\label{xin-chuxe2n-thuxe0nh-cux1ea3m-ux1a1n-khoa-cntt-trux1b0ux1eddng-ux111ux1ea1i-hux1ecdc-tuxf4n-ux111ux1ee9c-thux1eafng-ux111uxe3-tux1ea1o-ux111iux1ec1u-kiux1ec7n-thuux1eadn-lux1ee3i-cho-chuxfang-tuxf4i-nghiuxean-cux1ee9u-vuxe0-thux1ef1c-hiux1ec7n-chuyuxean-ux111ux1ec1-nuxe0y.}}
+
+\hypertarget{chuxe2n-thuxe0nh-cux1ea3m-ux1a1n-thux1ea7y-dux1b0ux1a1ng-hux1b0u-phuxfac-ux111uxe3-hux1ed7-trux1ee3-vuxe0-giux1ea3ng-dux1ea1y-cho-chuxfang-em-trong-suux1ed1t-quuxe1-truxecnh-hux1ecdc-tux1eadp-ux111ux1ec3-chuxfang-em-cuxf3-thux1ec3-thux1ef1c-hiux1ec7n-buxe0i-buxe1o-cuxe1o-nuxe0y.}{%
+\subparagraph{Chân thành cảm ơn thầy Dương Hưu Phúc đã hỗ trợ và giảng
+dạy cho chúng em trong suốt quá trình học tập để chúng em có thể thực
+hiện bài báo cáo
+này.}\label{chuxe2n-thuxe0nh-cux1ea3m-ux1a1n-thux1ea7y-dux1b0ux1a1ng-hux1b0u-phuxfac-ux111uxe3-hux1ed7-trux1ee3-vuxe0-giux1ea3ng-dux1ea1y-cho-chuxfang-em-trong-suux1ed1t-quuxe1-truxecnh-hux1ecdc-tux1eadp-ux111ux1ec3-chuxfang-em-cuxf3-thux1ec3-thux1ef1c-hiux1ec7n-buxe0i-buxe1o-cuxe1o-nuxe0y.}}
+
+\hypertarget{mux1eb7c-duxf9-em-ux111uxe3-cux1ed1-gux1eafng-houxe0n-thuxe0nh-luux1eadn-vux103n-trong-phux1ea1m-vi-vuxe0-khux1ea3-nux103ng-nhux1b0ng-chux1eafc-chux1eafn-sux1ebd-cuxf3-nhux1eefng-thiux1ebfu-suxf3t.-rux1ea5t-mong-nhux1eadn-ux111ux1b0ux1ee3c-sux1ef1-thuxf4ng-cux1ea3m-guxf3p-uxfd-chux1ec9-bux1ea3o-cux1ee7a-thux1ea7y-vuxe0-cuxe1c-bux1ea1n}{%
+\subparagraph{Mặc dù em đã cố gắng hoàn thành luận văn trong phạm vi và
+khả năng nhưng chắc chắn sẽ có những thiếu sót. Rất mong nhận được sự
+thông cảm, góp ý, chỉ bảo của thầy và các
+bạn}\label{mux1eb7c-duxf9-em-ux111uxe3-cux1ed1-gux1eafng-houxe0n-thuxe0nh-luux1eadn-vux103n-trong-phux1ea1m-vi-vuxe0-khux1ea3-nux103ng-nhux1b0ng-chux1eafc-chux1eafn-sux1ebd-cuxf3-nhux1eefng-thiux1ebfu-suxf3t.-rux1ea5t-mong-nhux1eadn-ux111ux1b0ux1ee3c-sux1ef1-thuxf4ng-cux1ea3m-guxf3p-uxfd-chux1ec9-bux1ea3o-cux1ee7a-thux1ea7y-vuxe0-cuxe1c-bux1ea1n}}
+
+\begin{quote}
+\textbf{ĐỒ ÁN ĐƯỢC HOÀN THÀNH TẠI TRƯỜNG ĐẠI HỌC TÔN ĐỨC THẮNG}
+\end{quote}
+
+Chúng em xin cam đoan đây là sản phẩm đồ án của riêng chúng em và được
+sự hướng dẫn của thầy Dương Hữu Phúc. Các nội dung nghiên cứu, kết quả
+trong đề tài này là trung thực và chưa công bố dưới bất kỳ hình thức nào
+trước đây. Những số liệu trong các bảng biểu phục vụ cho việc phân tích,
+nhận xét, đánh giá được chính tác giả thu thập từ các nguồn khác nhau có
+ghi rõ trong phần tài liệu tham khảo.
+
+Ngoài ra, trong đồ án còn sử dụng một số nhận xét, đánh giá cũng như số
+liệu của các tác giả khác, cơ quan tổ chức khác đều có trích dẫn và chú
+thích nguồn gốc.
+
+\textbf{Nếu phát hiện có bất kỳ sự gian lận nào chúng em xin hoàn toàn
+chịu trách nhiệm về nội dung đồ án của mình}. Trường đại học Tôn Đức
+Thắng không liên quan đến những vi phạm tác quyền, bản quyền do chúng em
+gây ra trong quá trình thực hiện (nếu có).
+
+\hypertarget{tp.-hux1ed3-chuxed-minh-nguxe0y-21-thuxe1ng-05-nux103m-2022-tuxe1c-giux1ea3}{%
+\paragraph{TP. Hồ Chí Minh, ngày 21 tháng 05 năm 2022 Tác
+giả}\label{tp.-hux1ed3-chuxed-minh-nguxe0y-21-thuxe1ng-05-nux103m-2022-tuxe1c-giux1ea3}}
+
+\hypertarget{kuxfd-tuxean-vuxe0-ghi-ruxf5-hux1ecd-tuxean}{%
+\paragraph{(ký tên và ghi rõ họ
+tên)}\label{kuxfd-tuxean-vuxe0-ghi-ruxf5-hux1ecd-tuxean}}
+
+\hypertarget{chiuxeam-tiux1ec1n-khang}{%
+\paragraph{Chiêm Tiền Khang}\label{chiuxeam-tiux1ec1n-khang}}
+
+\hypertarget{nguyux1ec5n-phux1ea1m-mux1ea1nh-cux1b0ux1eddng}{%
+\paragraph{Nguyễn Phạm Mạnh
+Cường}\label{nguyux1ec5n-phux1ea1m-mux1ea1nh-cux1b0ux1eddng}}
+
+\hypertarget{nguyux1ec5n-chuxe2u-thuxf9y-linh}{%
+\paragraph{Nguyễn Châu Thùy
+Linh}\label{nguyux1ec5n-chuxe2u-thuxf9y-linh}}
+
+\hypertarget{phux1ea7n-xuxe1c-nhux1eadn-vuxe0-ux111uxe1nh-giuxe1-cux1ee7a-giux1ea3ng-viuxean}{%
+\section{PHẦN XÁC NHẬN VÀ ĐÁNH GIÁ CỦA GIẢNG
+VIÊN}\label{phux1ea7n-xuxe1c-nhux1eadn-vuxe0-ux111uxe1nh-giuxe1-cux1ee7a-giux1ea3ng-viuxean}}
+
+\hypertarget{phux1ea7n-xuxe1c-nhux1eadn-cux1ee7a-gv-hux1b0ux1edbng-dux1eabn}{%
+\subsection{Phần xác nhận của GV hướng
+dẫn}\label{phux1ea7n-xuxe1c-nhux1eadn-cux1ee7a-gv-hux1b0ux1edbng-dux1eabn}}
+
+\hypertarget{tp.-hux1ed3-chuxed-minh-nguxe0y-thuxe1ng-nux103m-kuxed-vuxe0-ghi-hux1ecd-tuxean}{%
+\subparagraph{Tp. Hồ Chí Minh, ngày tháng năm (kí và ghi họ
+tên)}\label{tp.-hux1ed3-chuxed-minh-nguxe0y-thuxe1ng-nux103m-kuxed-vuxe0-ghi-hux1ecd-tuxean}}
+
+\hypertarget{phux1ea7n-ux111uxe1nh-giuxe1-cux1ee7a-gv-chux1ea5m-buxe0i}{%
+\subsection{Phần đánh giá của GV chấm
+bài}\label{phux1ea7n-ux111uxe1nh-giuxe1-cux1ee7a-gv-chux1ea5m-buxe0i}}
+
+\textbf{Tp. Hồ Chí Minh, ngày tháng năm (kí và ghi họ tên)}
+
+\hypertarget{table-of-contents}{%
+\section{\texorpdfstring{\textbf{Table of
+Contents}}{Table of Contents}}\label{table-of-contents}}
+
+\protect\hyperlink{lux1eddi-cux1ea3m-ux1a1n}{LỜI CẢM ƠN 3}
+
+\protect\hyperlink{phux1ea7n-xuxe1c-nhux1eadn-vuxe0-ux111uxe1nh-giuxe1-cux1ee7a-giux1ea3ng-viuxean}{PHẦN
+XÁC NHẬN VÀ ĐÁNH GIÁ CỦA GIẢNG VIÊN 5}
+
+\protect\hyperlink{phux1ea7n-xuxe1c-nhux1eadn-cux1ee7a-gv-hux1b0ux1edbng-dux1eabn}{1.
+Phần xác nhận của GV hướng dẫn 5}
+
+\protect\hyperlink{phux1ea7n-ux111uxe1nh-giuxe1-cux1ee7a-gv-chux1ea5m-buxe0i}{2.
+Phần đánh giá của GV chấm bài 5}
+
+\protect\hyperlink{tech-stack}{TECH STACK 6}
+
+\protect\hyperlink{nodejs}{1 NodeJS 7}
+
+\protect\hyperlink{what-is-node.js}{\textbf{1.1 What is Node.js ?} 7}
+
+\protect\hyperlink{features-of-node.js}{\textbf{1.2 Features of Node.js}
+7}
+
+\protect\hyperlink{who-and-when-to-use-node.js}{\textbf{1.3 Who and When
+to use Node.js} 7}
+
+\protect\hyperlink{concepts}{\textbf{1.4 Concepts} 8}
+
+\protect\hyperlink{expressjs}{2. ExpressJS 8}
+
+\protect\hyperlink{what-is-expressjs}{\textbf{2.1 What is ExpressJS ?}
+8}
+
+\protect\hyperlink{why-express}{\textbf{2.2 Why Express ?} 8}
+
+\protect\hyperlink{mongodb-and-mongoose}{\textbf{2.3 MongoDB and
+Mongoose} 8}
+
+\protect\hyperlink{mongodb-overview}{\textbf{2.4 MongoDB Overview} 9}
+
+\protect\hyperlink{what-is-mongodb}{2.4.1 What is MongoDB ? 9}
+
+\protect\hyperlink{database}{2.4.2 Database 9}
+
+\protect\hyperlink{collection}{2.4.3 Collection 9}
+
+\protect\hyperlink{document}{2.4.4 Document 9}
+
+\protect\hyperlink{application-system-design}{APPLICATION SYSTEM DESIGN
+10}
+
+\protect\hyperlink{web-app-architecture}{1. Web App Architecture 10}
+
+\protect\hyperlink{microservices}{\textbf{1.1 Microservices} 10}
+
+\protect\hyperlink{the-node.js-platform}{\textbf{1.2 The Node.js
+Platform} 11}
+
+\protect\hyperlink{building-microservices-with-node.js}{\textbf{1.3
+Building Microservices with Node.js} 12}
+
+\protect\hyperlink{functional-requirement-and-non-functional-requirement}{2.
+Functional requirement and Non-functional requirement 12}
+
+\protect\hyperlink{api-documentations}{3. API Documentations 13}
+
+\protect\hyperlink{database-design}{3. DATABASE DESIGN 14}
+
+\protect\hyperlink{front-end-design}{4. FRONT-END DESIGN 16}
+
+\protect\hyperlink{refference}{5 REFFERENCE 20}
+
+\hypertarget{section}{%
+\section{}\label{section}}
+
+\hypertarget{section-1}{%
+\section{}\label{section-1}}
+
+\hypertarget{tech-stack}{%
+\section{TECH STACK}\label{tech-stack}}
+
+\hypertarget{nodejs}{%
+\subsection{1 NodeJS}\label{nodejs}}
+
+\hypertarget{what-is-node.js}{%
+\subsubsection{\texorpdfstring{\textbf{1.1 What is Node.js
+?}}{1.1 What is Node.js ?}}\label{what-is-node.js}}
+
+\begin{itemize}
+\item
+  Node.js is a server-side platform built on Google Chrome's JavaScript
+  Engine (V8 Engine). Node.js was developed by Ryan Dahl in 2009 and its
+  latest version is v0.10.36.
+\item
+  Node.js is an open source, cross-platform runtime environment for
+  developing server-side and networking applications. Node.js
+  applications are written in JavaScript, and can be run within the
+  Node.js runtime on OS X, Microsoft Windows, and Linux.
+\item
+  Node.js also provides a rich library of various JavaScript modules
+  which simplifies the development of web applications using Node.js to
+  a great extent.
+\end{itemize}
+
+\hypertarget{features-of-node.js}{%
+\subsubsection{\texorpdfstring{\textbf{1.2 Features of
+Node.js}}{1.2 Features of Node.js}}\label{features-of-node.js}}
+
+\begin{itemize}
+\item
+  \textbf{Asynchronous and Event Driven} − All APIs of Node.js library
+  are asynchronous, that is, non-blocking. It essentially means a
+  Node.js based server never waits for an API to return data. The server
+  moves to the next API after calling it and a notification mechanism of
+  Events of Node.js helps the server to get a response from the previous
+  API call.
+\item
+  \textbf{Very Fast} − Being built on Google Chrome's V8 JavaScript
+  Engine, Node.js library is very fast in code execution.
+\item
+  \textbf{Single Threaded but Highly Scalable} − Node.js uses a single
+  threaded model with event looping. Event mechanism helps the server to
+  respond in a non-blocking way and makes the server highly scalable as
+  opposed to traditional servers which create limited threads to handle
+  requests. Node.js uses a single threaded program and the same program
+  can provide service to a much larger number of requests than
+  traditional servers like Apache HTTP Server.
+\item
+  \textbf{No Buffering} − Node.js applications never buffer any data.
+  These applications simply output the data in chunks.
+\end{itemize}
+
+\hypertarget{who-and-when-to-use-node.js}{%
+\subsubsection{\texorpdfstring{\textbf{1.3 Who and When to use
+Node.js}}{1.3 Who and When to use Node.js}}\label{who-and-when-to-use-node.js}}
+
+\begin{itemize}
+\item
+  Following is the link on github wiki containing an exhaustive list of
+  projects, application and companies which are using Node.js. This list
+  includes eBay, General Electric, GoDaddy, Microsoft, PayPal, Uber,
+  Wikipins, Yahoo!, and Yammer to name a few
+\item
+  \textbf{Where to use Node.js:}
+\end{itemize}
+
+\begin{itemize}
+\item
+  I/O bound Applications
+\item
+  Data Streaming Applications
+\item
+  Data Intensive Real-time Applications (DIRT)
+\item
+  JSON APIs based Applications
+\item
+  Single Page Applications
+\end{itemize}
+
+\hypertarget{concepts}{%
+\subsubsection{\texorpdfstring{\textbf{1.4
+Concepts}}{1.4 Concepts}}\label{concepts}}
+
+\begin{quote}
+\includegraphics[width=3.94792in,height=3.29167in]{vertopal_ee030a42582945f0b6e0807e4fe4e97c/media/image2.jpeg}
+\end{quote}
+
+Figure 1 NodeJS
+
+\hypertarget{expressjs}{%
+\subsection{2. ExpressJS}\label{expressjs}}
+
+\hypertarget{what-is-expressjs}{%
+\subsubsection{\texorpdfstring{\textbf{2.1 What is ExpressJS
+?}}{2.1 What is ExpressJS ?}}\label{what-is-expressjs}}
+
+\begin{itemize}
+\item
+  ExpressJS is a web application framework that provides you with a
+  simple API to build websites, web apps and back ends. With ExpressJS,
+  you need not worry about low level protocols, processes, etc.
+\item
+  Express provides a minimal interface to build our applications. It
+  provides us the tools that are required to build our app. It is
+  flexible as there are numerous modules available on npm, which can be
+  directly plugged into Express.
+\item
+  Express was developed by TJ Holowaychuk and is maintained by the
+  Node.js foundation and numerous open source contributors.
+\end{itemize}
+
+\hypertarget{why-express}{%
+\subsubsection{\texorpdfstring{\textbf{2.2 Why Express
+?}}{2.2 Why Express ?}}\label{why-express}}
+
+\begin{itemize}
+\item
+  Unlike its competitors like Rails and Django, which have an
+  opinionated way of building applications, Express has no "best way" to
+  do something. It is very flexible and pluggable.
+\end{itemize}
+
+\hypertarget{mongodb-and-mongoose}{%
+\subsubsection{\texorpdfstring{\textbf{2.3 MongoDB and
+Mongoose}}{2.3 MongoDB and Mongoose}}\label{mongodb-and-mongoose}}
+
+\begin{itemize}
+\item
+  MongoDB is an open-source, document database designed for ease of
+  development and scaling. This database is also used to store data.
+\item
+  Mongoose is a client API for node.js which makes it easy to access our
+  database from our Express application
+\end{itemize}
+
+\hypertarget{mongodb-overview}{%
+\subsubsection{\texorpdfstring{\textbf{2.4 MongoDB
+Overview}}{2.4 MongoDB Overview}}\label{mongodb-overview}}
+
+\hypertarget{what-is-mongodb}{%
+\section{2.4.1 What is MongoDB ?}\label{what-is-mongodb}}
+
+\begin{itemize}
+\item
+  MongoDB is a cross-platform, document oriented database that provides,
+  high performance, high availability, and easy scalability. MongoDB
+  works on concept of collection and document.
+\end{itemize}
+
+\hypertarget{database}{%
+\section{2.4.2 Database}\label{database}}
+
+\begin{itemize}
+\item
+  Database is a physical container for collections. Each database gets
+  its own set of files on the file system. A single MongoDB server
+  typically has multiple databases.
+\end{itemize}
+
+\hypertarget{collection}{%
+\section{2.4.3 Collection}\label{collection}}
+
+\begin{itemize}
+\item
+  Collection is a group of MongoDB documents. It is the equivalent of an
+  RDBMS table. A collection exists within a single database. Collections
+  do not enforce a schema. Documents within a collection can have
+  different fields. Typically, all documents in a collection are of
+  similar or related purpose.
+\end{itemize}
+
+\hypertarget{document}{%
+\section{2.4.4 Document}\label{document}}
+
+A document is a set of key-value pairs. Documents have dynamic schema.
+Dynamic schema means that documents in the same collection do not need
+to have the same set of fields or structure, and common fields in a
+collection's documents may hold different types of data.
+
+\includegraphics[width=6.61111in,height=2.96806in]{vertopal_ee030a42582945f0b6e0807e4fe4e97c/media/image3.png}
+
+Figure 2 The relationship of RDBMS terminology with MongoDB.
+
+\hypertarget{application-system-design}{%
+\section{APPLICATION SYSTEM DESIGN}\label{application-system-design}}
+
+\hypertarget{web-app-architecture}{%
+\subsection{1. Web App Architecture}\label{web-app-architecture}}
+
+\hypertarget{microservices}{%
+\subsubsection{\texorpdfstring{\textbf{1.1
+Microservices}}{1.1 Microservices}}\label{microservices}}
+
+In software application development, microservices are a style of
+service-oriented architecture (SOA) where the app is structured on an
+assembly of interconnected services. With microservices, the application
+architecture is built with lightweight protocols. The services are
+finely seeded in the architecture. Microservices disintegrate the app
+into smaller services and enable improved modularity.
+
+Compared to its predecessor, the monolithic architecture, microservices
+are hands down more beneficial. You don't need to stuff all software
+components and services in one big container and pack them tightly. With
+microservices, you can build an app with:
+
+\begin{itemize}
+\item
+  greater flexibility,
+\item
+  high scalability,
+\item
+  continuous development,
+\item
+  systematic data organization,
+\item
+  time optimization, and
+\item
+  reliability.
+\end{itemize}
+
+Building JavaScript applications on microservices help you focus on
+developing monofunctional modules with clearly defined operations and
+precise interfaces. The application development process becomes more
+agile, and the challenges of continuous testing are mitigated.
+
+\includegraphics[width=6.61111in,height=5.31806in]{vertopal_ee030a42582945f0b6e0807e4fe4e97c/media/image4.jpeg}
+
+\hypertarget{the-node.js-platform}{%
+\subsubsection{\texorpdfstring{ \textbf{1.2 The Node.js
+Platform}}{ 1.2 The Node.js Platform}}\label{the-node.js-platform}}
+
+When you build applications on a monolithic architecture, the entire
+application needs to be deployed with every update. On the other hand,
+microservices have no dependency on the type of framework, technique or
+programming language being used to build them. Your ability to release
+REST-ful APIs for communication and other services is the only requisite
+for microservice architecture.
+
+\textbf{Key benefits of Node.js}
+
+\begin{itemize}
+\item
+  Single-threaded: With event looping, the server uses a non-blocking
+  mechanism to respond.
+\item
+  Super-fast: Codes are executed quickly on the V8 JavaScript Engine
+\item
+  Event-driven: `Events of Node.js' is a notification system that
+  enables the application server to capture the response of the previous
+  API call.
+\item
+  Buffer-less: There is no buffering as data is simply released in
+  chunks.
+\item
+  Asynchronous: The non-blocking, non-synchronous Node.js libraries move
+  to the next API and do not await the return data of the previous API.
+\item
+  Highly-scalable: Servers can handle as many requests as coming their
+  way
+\item
+  Licensed: The program is authorized under a software license.
+\end{itemize}
+
+\hypertarget{building-microservices-with-node.js}{%
+\subsubsection{\texorpdfstring{\textbf{1.3 Building Microservices with
+Node.js}}{1.3 Building Microservices with Node.js}}\label{building-microservices-with-node.js}}
+
+To build microservices for real-world applications with Node.js, a basic
+understanding of JavaScript programming is important. The steps involved
+in developing microservices with Node.js showcase how working
+applications in our hyperconnected world can perform superbly when
+constructed with a functional combination of multiple, unique APIs.
+
+\hypertarget{functional-requirement-and-non-functional-requirement}{%
+\subsection{2. Functional requirement and Non-functional
+requirement}\label{functional-requirement-and-non-functional-requirement}}
+
+\textbf{- Login:}
+
+\begin{itemize}
+\item
+  Functional requirement: Correct email and password.
+\item
+  Non-functional requirement: send OTP or email code to confirm for
+  first login
+\end{itemize}
+
+\textbf{- Register:}
+
+\begin{itemize}
+\item
+  Functional requirement: email, password, fullname, address, phone, age
+  are required
+\item
+  Non-functional requirement: email must be unique
+\end{itemize}
+
+\textbf{- Logout:}
+
+\begin{itemize}
+\item
+  Functional requirement: must be logged in before
+\item
+  Non-functional requirement: Log out all devices (optional)
+\end{itemize}
+
+\textbf{- Get product list (all products):}
+
+\begin{itemize}
+\item
+  Functional requirement: Connect to database to get product data
+\item
+  Non-functional requirement: Full product information available
+\end{itemize}
+
+\textbf{- Get product details:}
+
+\begin{itemize}
+\item
+  Functional requirement: full information of each product
+\item
+  Non-functional requirement: format number of as currency
+\end{itemize}
+
+\textbf{- Add product:}
+
+\begin{itemize}
+\item
+  Functional requirement: full information of each product
+\item
+  Non-functional requirement: correct format of that product
+\end{itemize}
+
+\hypertarget{api-documentations}{%
+\subsection{3. API Documentations}\label{api-documentations}}
+
+\begin{longtable}[]{@{}lllll@{}}
+\toprule
+\textbf{End point (URI)} & \textbf{HTTP Method} & \textbf{Input} &
+\textbf{Output} & \textbf{Description} \\
+\midrule
+\endhead
+/register & POST & email, password, fullname, address, phone, age &
+user, token & Create new user \\
+/login & POST & email, password & user, token & User sign in into
+system \\
+/users/me & GET & user's token & user infomation & Get user
+information \\
+/users/me/logout & POST & token & message: "Logged out" & User sign out
+from system \\
+/users/me/logoutAll & POST & token & message: "Logged out" & Log out all
+devices \\
+/api/products & GET & & products & Get all product information \\
+/api/products/details & GET & & product & Get details of a product \\
+/api/products & POST & name, brand, description, price, image, category,
+quantity, stock & product & Create products \\
+/api/products & DELETE & productID & message: "Deleted" & Delete a
+product \\
+/api/products/:productId & GET & productID & product & Get product ID \\
+/api/products/:productId & PUT & productID & product & Update product
+information \\
+/api/cart & GET & products, totalPrice & products, totalPrice, cart &
+Get cart information \\
+/api/cart & POST & products & cart & Add products into cart \\
+/api/cart & DELETE & productID & cart & Delete a product \\
+/api/order & POST & user, address, phone, cart & result & Create
+order \\
+\bottomrule
+\end{longtable}
+
+\hypertarget{database-design}{%
+\subsection{DATABASE DESIGN}\label{database-design}}
+
+\emph{Use-Case:}
+
+\includegraphics[width=6.5in,height=4.22917in]{vertopal_ee030a42582945f0b6e0807e4fe4e97c/media/image5.png}
+
+\hypertarget{front-end-design}{%
+\subsection{FRONT-END DESIGN}\label{front-end-design}}
+
+\includegraphics[width=6.5in,height=5.32778in]{vertopal_ee030a42582945f0b6e0807e4fe4e97c/media/image6.png}
+
+Figure 3 Homepage
+
+\includegraphics[width=6.5in,height=7.00486in]{vertopal_ee030a42582945f0b6e0807e4fe4e97c/media/image7.png}
+
+Figure 4 Products Page
+
+\includegraphics[width=6.5in,height=6.91042in]{vertopal_ee030a42582945f0b6e0807e4fe4e97c/media/image8.png}
+
+Figure 5 Product's Detail
+
+\includegraphics[width=6.5in,height=5.93194in]{vertopal_ee030a42582945f0b6e0807e4fe4e97c/media/image9.png}
+
+Figure 6 Checkout
+
+\includegraphics[width=6.5in,height=6.42639in]{vertopal_ee030a42582945f0b6e0807e4fe4e97c/media/image10.png}
+
+Figure 7 View Cart
+
+\hypertarget{refference}{%
+\subsection{5 REFFERENCE}\label{refference}}
+
+\href{https://www.tutorialspoint.com/nodejs/nodejs_introduction.htm\#:~:text=is\%20as\%20follows\%20\%E2\%88\%92-,Node.,that\%20run\%20across\%20distributed\%20devices.}{Node.js
+- Introduction (tutorialspoint.com)}
+
+\href{https://www.tutorialspoint.com/mongodb/mongodb_overview.htm}{MongoDB
+- Overview (tutorialspoint.com)}
+
+\href{https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm}{Node.js
+- Express Framework (tutorialspoint.com)}
+
+\end{document}
